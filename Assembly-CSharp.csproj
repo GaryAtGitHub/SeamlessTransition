@@ -66,12 +66,20 @@
     <Compile Include="Assets\Scripts\LoadIndicator.cs" />
     <Compile Include="Assets\Scripts\LoadSceneManager.cs" />
     <Compile Include="Assets\Scripts\TransitionSceneManager.cs" />
+    <None Include="Assets\Fantasy Skybox FREE\Readme.txt" />
     <None Include="Assets\Shaders\ScreenFade.shader" />
+    <None Include="Assets\Prefab\Hands\Hands_Transparent.shader" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/Just For Interest/SeamlessTransition/SeamlessTransition/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.XR.Interaction.Toolkit">
+      <HintPath>D:/Just For Interest/SeamlessTransition/SeamlessTransition/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>D:/Just For Interest/SeamlessTransition/SeamlessTransition/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Interaction.Toolkit.Editor">
+      <HintPath>D:/Just For Interest/SeamlessTransition/SeamlessTransition/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/Just For Interest/SeamlessTransition/SeamlessTransition/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -85,23 +93,11 @@
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>D:/Just For Interest/SeamlessTransition/SeamlessTransition/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>D:/Just For Interest/SeamlessTransition/SeamlessTransition/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/Just For Interest/SeamlessTransition/SeamlessTransition/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>D:/Just For Interest/SeamlessTransition/SeamlessTransition/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.Interaction.Toolkit">
-      <HintPath>D:/Just For Interest/SeamlessTransition/SeamlessTransition/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.Interaction.Toolkit.Editor">
-      <HintPath>D:/Just For Interest/SeamlessTransition/SeamlessTransition/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
       <HintPath>D:/Just For Interest/SeamlessTransition/SeamlessTransition/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>D:/Just For Interest/SeamlessTransition/SeamlessTransition/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
       <HintPath>D:/Just For Interest/SeamlessTransition/SeamlessTransition/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
@@ -109,8 +105,14 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>D:/Just For Interest/SeamlessTransition/SeamlessTransition/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>D:/Just For Interest/SeamlessTransition/SeamlessTransition/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
       <HintPath>D:/Just For Interest/SeamlessTransition/SeamlessTransition/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>D:/Just For Interest/SeamlessTransition/SeamlessTransition/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/Program Files/Unity Hub/2019.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

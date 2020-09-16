@@ -10,6 +10,7 @@ public class TransitionSceneManager : MonoBehaviour
     public bool IsStartFadeout { get; private set; } = true;
     public Action OnPreTransition;
     public Action OnEnterNewScene;
+    public bool _IsLoading { get; private set; }
 
     [SerializeField]
     private Camera _TransitionCamera;
@@ -18,7 +19,6 @@ public class TransitionSceneManager : MonoBehaviour
     [SerializeField]
     private LoadIndicator _LoadIndicator;
 
-    private bool _IsLoading;
     [SerializeField]
     private GameObject[] _Gos;
 
